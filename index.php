@@ -12,10 +12,10 @@
  Multiline
  Comment 
 -->
-<form method="get">
+<!-- <form method="get">
     <input type="text" name="userchannel">
     <button type="submit">Submit</button>
-</form>
+</form> -->
 
 <?php
 /*
@@ -23,14 +23,19 @@
  Multiline 
  Comment
  */
-$myname = $_GET ['userchannel']; 
-echo $myname." is an awesome Channel".'<br>';// php Line Breack --> '<br>';
+// $myname = $_GET ['userchannel']; 
+// echo $myname." is an awesome Channel".'<br>'.'<br>';// php Line Breack --> '<br>';
 
-$var1 = 'achini';
-$var2 = 'thathsarani';
+// $var1 = 'achini';
+// $var2 = 'thathsarani';
 
-$var3 = $var1 . $var2;
-echo $var3;
+// $var3 = $var1 . $var2;
+// echo $var3;
+
+echo strlen ('Achini').'<br>';
+echo str_word_count('Achini Kawshalya Thathsarani').'<br>';
+echo strrev ('Achini'); 
+
 ?>
 </body>
 </html>
