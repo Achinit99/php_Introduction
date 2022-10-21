@@ -7,15 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-
+<!--
+ HTML
+ Multiline
+ Comment 
+-->
 <form method="get">
     <input type="text" name="userchannel">
     <button type="submit">Submit</button>
 </form>
 
 <?php
-
-$myname = $_GET ['userchannel'];
+/*
+ PHP
+ Multiline 
+ Comment
+ */
+$myname = $_GET ['userchannel']; // Comment
 echo $myname." is an awesome Channel";
 
 ?>
