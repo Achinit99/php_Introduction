@@ -23,9 +23,14 @@
  Multiline 
  Comment
  */
-$myname = $_GET ['userchannel']; // Comment
-echo $myname." is an awesome Channel";
+$myname = $_GET ['userchannel']; 
+echo $myname." is an awesome Channel".'<br>';// php Line Breack --> '<br>';
 
+$var1 = 'achini';
+$var2 = 'thathsarani';
+
+$var3 = $var1 . $var2;
+echo $var3;
 ?>
 </body>
 </html>
